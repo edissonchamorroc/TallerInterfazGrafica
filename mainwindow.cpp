@@ -6,6 +6,8 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    setWindowTitle("Calculadora");//cambiar el nombre de la ventana
+    ui->resultado->setText("0.0");
 }
 
 MainWindow::~MainWindow()
@@ -13,3 +15,23 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+
+void MainWindow::on_suma_clicked()
+{
+
+}
+
+void MainWindow::on_resta_clicked()
+{
+
+}
+
+void MainWindow::on_mul_clicked()
+{
+
+}
+
+void MainWindow::on_div_clicked()
+{
+
+}

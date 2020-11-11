@@ -15,6 +15,15 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_suma_clicked();
+
+    void on_resta_clicked();
+
+    void on_mul_clicked();
+
+    void on_div_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
