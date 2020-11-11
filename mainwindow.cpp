@@ -18,6 +18,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_suma_clicked()
 {
+    ui->resultado->setText(QString::number(ui->N1->value()+ui->N2->value()));
 
 }
 
